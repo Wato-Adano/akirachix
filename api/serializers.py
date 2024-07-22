@@ -10,7 +10,7 @@ class StudentSerializer(serializers.ModelSerializer):
         model = Student
         fields = "__all__"
 
-
+        
 class ClassesSerializer(serializers.ModelSerializer):
     model = Class
     fields = "__all__"
@@ -29,3 +29,4 @@ class CoursesSerializer(serializers.ModelSerializer):
 class TeacherSerializer(serializers.ModelSerializer):
     model = Courses
     fields = "__all__"
+    
