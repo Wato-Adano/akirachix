@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app_akirachix',
+    'app_student',
+    'app_course',
+    'app_class',
+     
+    
 ]
 
 MIDDLEWARE = [
